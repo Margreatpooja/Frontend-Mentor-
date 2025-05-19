@@ -1,0 +1,330 @@
+* {
+  margin: 0%;
+  /* padding: 15px 10px 15px; */
+}
+body {
+  background-color: #f3e5d8;
+  margin: auto;
+  padding-bottom:100px ;
+}
+@font-face {
+  font-family: "Young Serif";
+  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("assets/fonts/outfit/Outfit-Regular.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.container {
+  display: grid;
+  background-color: #ffffff;
+  width: 600px;
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 100px;
+  overflow: hidden;
+}
+.container .img img {
+  display: grid;
+  grid-row: span 3;
+  grid-column: span 3;
+  border-radius: 30px;
+  width: 540px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.content {
+  width: 590px;
+  display: grid;
+  grid-row: span 3;
+  grid-column: span 3;
+  border: none;
+  /* background-color: #ffffff; */
+}
+
+.content h1 {
+  display: grid;
+  grid-row: span 3;
+  grid-column: span 3;
+  justify-content: start;
+  align-items: flex-start;
+  color: #2c2b29;
+  font-family: "Young Serif", serif;
+  font-style: normal;
+  font-weight: 400;
+  padding: 20px 0px 20px;
+  margin-left: 26px;
+}
+.content p {
+  display: grid;
+  max-width: 420px;
+  margin: auto;
+  grid-row: span 3;
+  grid-column: span 3;
+  justify-content: start;
+  align-items: flex-start;
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 600px;
+  padding: 0px 0px 20px;
+  line-height: 0vh;
+  margin-left: 26px;
+}
+.preparation {
+  display: grid;
+  grid-row: span 3;
+  grid-column: span 3;
+  border: none;
+  border-radius: 10px;
+  background-color: #fef8fc;
+  margin-top: 10px;
+  max-width: 530px;
+  margin-left: 35px;
+  padding: 10px 0px 20px;
+}
+.preparation h3 {
+  font-family: "Young Serif", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #6f304b;
+  margin-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+li {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-size: 13px;
+  padding: 5px 0px 5px;
+  margin-left: 45px;
+}
+li::marker {
+  color: #6f304b;
+}
+.total {
+  font-weight: 700;
+}
+.total_1 {
+  padding-right: 5px;
+}
+.ingredients {
+  display: grid;
+  grid-row: span 3;
+  grid-column: span 3;
+  border: none;
+  /* background-color: #ffffff; */
+  margin-top: 5px;
+  max-width: 540px;
+}
+.ingredients h2 {
+  font-family: "Young Serif", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #6f304b;
+  margin-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.meals {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  padding: 5px 10px 5px;
+  font-weight: 400;
+}
+#h_line {
+  width: 90%;
+  height: 1px;
+  background-color: #d2cfcd;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.instructions {
+  display: grid;
+  grid-column: span 3;
+  grid-row: span 3;
+  max-width: 540px;
+  /* background-color: #ffffff; */
+}
+.instructions h2 {
+  font-family: "Young Serif", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #6f304b;
+  margin-left: 40px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+}
+.steps {
+  color: #5f564d;
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+ol li {
+  padding: 3px 10px 10px;
+  margin-left: 15px;
+  min-width: 500px;
+}
+
+ol li::marker {
+  color: #6f304b;
+  font-weight: 700;
+}
+.line0 {
+  width: 90%;
+  height: 1px;
+  background-color: #d2cfcd;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nutrition {
+  display: grid;
+  grid-column: span 3;
+  grid-row: span 3;
+  max-width: 540px;
+  /* background-color: #ffffff; */
+}
+.nutrition h2 {
+  font-family: "Young Serif", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #6f304b;
+  margin-left: 35px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+}
+.nutrition p .nut {
+  display: grid;
+  grid-column: span 3;
+  grid-row: span 3;
+  color: #5f564d;
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  margin-left: 30px;
+}
+.nutrition p .nut_0 {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  padding-left: 100px;
+  font-size: 14px;
+}
+.nutrition p .nut_1 {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  color: #6f304b;
+  font-weight: 700;
+  padding-left: 200px;
+  font-size: 14px;
+}
+.nutrition .down {
+  margin-top: 15px;
+}
+
+.line1 {
+  width: 90%;
+  height: 1px;
+  background-color: #d2cfcd;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nutrition p .nut_2 {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  padding-left: 100px;
+  font-size: 14px;
+}
+.nutrition p .nut_3 {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  color: #6f304b;
+  font-weight: 700;
+  padding-left: 215px;
+  font-size: 14px;
+}
+.nutrition .down_1 {
+  margin-top: 0px;
+}
+.line2 {
+  width: 90%;
+  height: 1px;
+  background-color: #d2cfcd;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nutrition p .nut_4 {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  padding-left: 100px;
+  font-size: 14px;
+}
+.nutrition p .nut_5 {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  color: #6f304b;
+  font-weight: 700;
+  padding-left: 210px;
+  font-size: 14px;
+}
+.nutrition .down_2 {
+  margin-top: 0px;
+}
+.line3 {
+  width: 90%;
+  height: 1px;
+  background-color: #d2cfcd;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nutrition p .nut_6 {
+  color: #5f564d;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  padding-left: 100px;
+  font-size: 14px;
+}
+.nutrition p .nut_7 {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  color: #6f304b;
+  font-weight: 700;
+  padding-left: 235px;
+  font-size: 14px;
+}
+.nutrition .down_3 {
+  margin-top: 0px;
+  padding-bottom: 40px;
+}
